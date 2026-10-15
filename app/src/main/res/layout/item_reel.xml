@@ -1,0 +1,29 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent" android:background="#000000">
+    <androidx.media3.ui.PlayerView
+        android:id="@+id/player" android:layout_width="match_parent" android:layout_height="match_parent"
+        android:useController="true" android:show_buffering="when_playing"/>
+    <TextView android:id="@+id/heartOverlay" android:layout_width="130dp" android:layout_height="130dp"
+        android:layout_gravity="center" android:gravity="center" android:text="♥" android:textColor="#FF4F93"
+        android:textSize="88sp" android:visibility="gone"/>
+    <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:layout_gravity="end|center_vertical" android:orientation="vertical" android:padding="12dp">
+        <TextView android:id="@+id/likeButton" android:layout_width="60dp" android:layout_height="60dp"
+            android:gravity="center" android:text="♡" android:textColor="@color/white" android:textSize="38sp"
+            android:background="@drawable/button_glow"/>
+        <TextView android:id="@+id/likeCount" android:layout_width="60dp" android:layout_height="30dp"
+            android:gravity="center" android:text="إعجاب" android:textColor="@color/white" android:textSize="11sp"/>
+        <TextView android:id="@+id/speedButton" android:layout_width="60dp" android:layout_height="48dp"
+            android:gravity="center" android:text="1.0x" android:textColor="@color/white" android:textSize="13sp"
+            android:background="@drawable/button_glow"/>
+        <TextView android:id="@+id/muteButton" android:layout_width="60dp" android:layout_height="48dp"
+            android:gravity="center" android:text="🔊" android:textColor="@color/white" android:textSize="18sp"
+            android:background="@drawable/button_glow"/>
+        <TextView android:id="@+id/lockButton" android:layout_width="60dp" android:layout_height="48dp"
+            android:gravity="center" android:text="🔒" android:textColor="@color/white" android:textSize="17sp"
+            android:background="@drawable/button_glow"/>
+    </LinearLayout>
+    <TextView android:id="@+id/title" android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:layout_gravity="bottom" android:padding="22dp" android:textColor="@color/white"
+        android:textSize="16sp" android:background="#66000000"/>
+</FrameLayout>
