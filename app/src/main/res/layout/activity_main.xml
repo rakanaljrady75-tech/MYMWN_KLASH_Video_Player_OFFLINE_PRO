@@ -1,0 +1,28 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/bg">
+
+    <FrameLayout
+        android:id="@+id/content"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+    <LinearLayout
+        android:id="@+id/bottomBar"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:paddingHorizontal="8dp"
+        android:background="#101017">
+
+        <TextView android:id="@+id/navHome" style="@style/NavItem" android:text="⌂\nالرئيسية"/>
+        <TextView android:id="@+id/navReels" style="@style/NavItem" android:text="▶\nريلز"/>
+        <TextView android:id="@+id/navLikes" style="@style/NavItem" android:text="♡\nالإعجابات"/>
+        <TextView android:id="@+id/navFolders" style="@style/NavItem" android:text="▦\nالمجلدات"/>
+        <TextView android:id="@+id/navAbout" style="@style/NavItem" android:text="ⓘ\nحول"/>
+    </LinearLayout>
+</LinearLayout>
