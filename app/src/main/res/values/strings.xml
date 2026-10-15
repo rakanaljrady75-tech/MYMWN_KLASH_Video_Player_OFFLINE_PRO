@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">MYMWN KLASH</string>
+    <string-array name="developer_welcome_messages">
+        <item>كلاش يرحب بك… جاهزين للفيديوهات؟ 👑</item>
+        <item>نورت MYMWN KLASH… المشاهدة تبدأ الآن ✦</item>
+        <item>مرحباً بك في عالم كلاش للفيديوهات 🎬</item>
+        <item>خلك مرتاح… فيديوهاتك في جهازك، والتطبيق جاهز 🔥</item>
+        <item>ابتسم، كلاش جهز لك جلسة مشاهدة محترمة 😎</item>
+        <item>أهلاً بك… اليوم دورك تختار أول فيديو ❤️</item>
+    </string-array>
+</resources>
