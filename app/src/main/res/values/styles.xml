@@ -1,0 +1,10 @@
+<resources>
+    <style name="Theme.MYMWNKLASH" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:fontFamily">sans</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:statusBarColor">#08080D</item>
+        <item name="android:navigationBarColor">#08080D</item>
+        <item name="android:colorAccent">#7C4DFF</item>
+        <item name="android:windowActionModeOverlay">true</item>
+    </style>
+</resources>
