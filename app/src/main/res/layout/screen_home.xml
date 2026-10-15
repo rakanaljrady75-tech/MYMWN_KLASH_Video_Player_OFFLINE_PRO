@@ -1,0 +1,68 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@drawable/bg_gradient">
+    <LinearLayout
+        android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:orientation="vertical" android:padding="18dp">
+
+        <LinearLayout
+            android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:gravity="center_vertical">
+            <ImageView
+                android:layout_width="52dp" android:layout_height="52dp"
+                android:src="@drawable/klash_logo" android:scaleType="centerCrop"
+                android:contentDescription="KLASH"/>
+            <LinearLayout
+                android:layout_width="0dp" android:layout_height="wrap_content"
+                android:layout_weight="1" android:orientation="vertical"
+                android:layout_marginStart="12dp">
+                <TextView
+                    android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:text="KLASH" android:textColor="@color/white"
+                    android:textSize="25sp" android:textStyle="bold"/>
+                <TextView
+                    android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:text="VIDEO PLAYER" android:textColor="@color/purple"
+                    android:textSize="11sp"/>
+            </LinearLayout>
+            <TextView
+                android:layout_width="48dp" android:layout_height="48dp"
+                android:gravity="center" android:text="⌕"
+                android:textColor="@color/white" android:textSize="28sp"/>
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/hero"
+            android:layout_width="match_parent" android:layout_height="190dp"
+            android:layout_marginTop="18dp" android:src="@drawable/home_hero"
+            android:scaleType="centerCrop" android:background="@drawable/rounded_card"
+            android:contentDescription="واجهة KLASH"/>
+
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="أقسام التطبيق" android:textColor="@color/white"
+            android:textSize="20sp" android:textStyle="bold" android:layout_marginTop="24dp"/>
+
+        <TextView android:id="@+id/openReels" android:layout_width="match_parent" android:layout_height="92dp"
+            android:gravity="center_vertical" android:padding="22dp"
+            android:text="▶  الريلز   •   مشاهدة عمودية وسريعة"
+            android:textColor="@color/white" android:textSize="16sp"
+            android:background="@drawable/rounded_card" android:layout_marginTop="10dp"/>
+
+        <TextView android:id="@+id/openLikes" android:layout_width="match_parent" android:layout_height="80dp"
+            android:gravity="center_vertical" android:padding="22dp"
+            android:text="♥  الإعجابات   •   فيديوهاتك المحفوظة"
+            android:textColor="@color/white" android:textSize="16sp"
+            android:background="@drawable/rounded_card" android:layout_marginTop="10dp"/>
+
+        <TextView android:id="@+id/openFolders" android:layout_width="match_parent" android:layout_height="80dp"
+            android:gravity="center_vertical" android:padding="22dp"
+            android:text="▦  الفيديوهات   •   استعراض مكتبة الجهاز"
+            android:textColor="@color/white" android:textSize="16sp"
+            android:background="@drawable/rounded_card" android:layout_marginTop="10dp"/>
+
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="تصميم KLASH • تشغيل محلي • بدون رفع فيديوهاتك للسحابة"
+            android:textColor="@color/muted" android:textSize="12sp"
+            android:layout_marginTop="22dp"/>
+    </LinearLayout>
+</ScrollView>
