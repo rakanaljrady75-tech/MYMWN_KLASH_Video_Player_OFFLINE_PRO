@@ -1,0 +1,16 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical"
+    android:gravity="center" android:padding="28dp" android:background="@drawable/rounded_card">
+    <ImageView android:id="@+id/logo" android:layout_width="110dp" android:layout_height="80dp"
+        android:src="@drawable/klash_logo" android:scaleType="centerCrop" android:contentDescription="KLASH"/>
+    <TextView android:id="@+id/greeting" android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:gravity="center" android:textColor="@color/white" android:textSize="21sp" android:textStyle="bold"
+        android:layout_marginTop="12dp"/>
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:gravity="center"
+        android:text="مرحباً بك في MYMWN KLASH
+مشغل فيديوهاتك المحلية بواجهة فخمة وتجربة مشاهدة سريعة."
+        android:textColor="@color/muted" android:textSize="14sp" android:lineSpacingExtra="5dp" android:layout_marginTop="10dp"/>
+    <TextView android:id="@+id/close" android:layout_width="match_parent" android:layout_height="54dp"
+        android:gravity="center" android:text="ابدأ المشاهدة  ✦" android:textColor="@color/white"
+        android:textStyle="bold" android:textSize="16sp" android:background="@drawable/button_glow" android:layout_marginTop="20dp"/>
+</LinearLayout>
